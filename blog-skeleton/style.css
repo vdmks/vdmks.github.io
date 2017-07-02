@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,800,900');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	background: #ada6a0;
+}
+
+div a,
+div a:link,
+div a:hover,
+div a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+.header-links,
+.slider,
+.articles-prev,
+.article,
+.hello,
+.copyright {
+	margin: 0 0 15px 0;
+}
+
+.container {
+	font-weight: 400;
+}
+
+	.logo {
+		text-align: center;
+		font-size: 60px;
+		font-weight: 900;
+		color: #ffffff;
+		min-height: 140px;
+		padding: 50px 0;
+	}
+
+	.header-links {
+		background: #ffffff;
+		padding: 15px 0;
+		border: 2px solid #5b5b5b;
+	}
+
+		.header-links-item {
+			display: inline-block;
+			padding: 0 25px;
+			text-align: center;
+		}
+
+			.header-links-item a {
+				color: #5b5b5b;
+				font-size: 16px;
+				font-weight: bold;
+			}
+	
+	.slider {
+		background: #ffffff;
+		border: 2px solid #5b5b5b;
+		padding: 5px;
+	}
+
+		.slide img {
+			width: 100%;
+			height: auto;
+		}
+
+	.articles-prev {
+		
+	}
+
+		.articles-prev-item {
+			background: #ffffff;
+			border: 2px solid #5b5b5b;
+			padding: 5px;
+		}
+
+			.art-prew-img img {
+				width: 100%;
+			}
+
+		.art-prew-more {
+			text-align: right;
+		}
+
+			.art-prew-more a:hover {
+				text-decoration: underline;
+			}
+
+			.art-prew-more a:active {
+				color: blue;
+			}
+
+			.art-prew-more a:visited {
+				color: darkblue;
+			}
+
+	.article {
+		background: #ffffff;
+		border: 2px solid #5b5b5b;
+		padding: 5px;
+	}
+		
+		.article-header h3 {
+			font-weight: 800;
+			text-align: center;
+		}
+
+			.article-info,
+			.article-img {
+				text-align: center;
+			}
+
+			.article-info p {
+				font-size: 12px;
+			}
+				.article-info p:nth-child(1),
+				.article-info p:nth-child(2),
+				.article-info p:nth-child(3) {
+					display: inline-block;
+					font-weight: 700;
+				}
+
+				.article-info p:nth-child(3) {
+					font-style: italic;
+				}
+
+				.gallery img {
+					max-width: 700px;
+					height: auto;
+				}
+
+			.article-item p {
+				padding: 0 30px;
+			}
+
+	.hello {
+
+	}
+
+		.hello-item {
+			background: #ffffff;
+			border: 2px solid #5b5b5b;
+			padding: 5px;
+			display: inline-block;
+		}
+
+			.hello-item-descr {
+				
+			}
+	
+	.copyright {
+		background: #ffffff;
+		border: 2px solid #5b5b5b;
+	}
+
+		.copyright p {
+			padding: 10px;
+			text-align: center;
+		}

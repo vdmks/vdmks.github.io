@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="description" content="buy a new item now! 50% discount!">
+    <meta name="keyword" content="buy something now!">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/flex.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+	<link rel="stylesheet" media="screen,projection" href="css/ui.totop.css" />
+	<script src="js/scrollreveal.min.js"></script>
+	<script type="text/javascript" src="js/jquery.1.7.1.min.js"></script>
+	<script type="text/javascript">
+		//scrolling
+		$(document).ready(function(){
+			$('a[href^="#"]').click(function () { 
+			    elementClick = $(this).attr("href");
+				destination = $(elementClick).offset().top;
+				if($.browser.safari){
+				$('body').animate( { scrollTop: destination }, 1000 );
+				} else {
+			    	$('html').animate( { scrollTop: destination }, 1000 );
+				}
+				return false;
+		   });
+		});
+	</script>
+</head>
+<body> 
+	<div class="green-bg">
+		<header>
+			<div class="logo">
+				<a href="#">
+					<img src="img/mobapp-landing.png" alt="">
+				</a>
+			</div>
+			<nav class="hidden-menu">
+				<a href="#about">about</a>
+				<a href="#features">features</a>
+				<a href="#reviews">reviews</a>
+				<a href="#screenshot">screenshot</a>
+				<a href="#demo">demo</a>
+				<a href="#contact">contact</a>
+			</nav>
+			<div class="menu-icon">
+				<a href="">
+					<img src="img/icon-menu.svg">
+				</a>
+			</div>
+		</header>
+	</div><!-- green-bg -->
+		<section>
+			<div id="slider">
+				<div class="slider-img">
+		        	<img src="img/slide1.png" alt="image01" />
+		        	<!-- <img src="img/slide2.png" alt="image01" />
+		        	<img src="img/slide3.png" alt="image01" /> -->
+		        </div>
+	 		</div><!-- end-of-slider -->
+		</section>
+		<section>
+			<div id="about">
+				<div class="about-header">
+					<h3>about this template</h3>
+				</div>
+				<div class="about-descr">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, pariatur? Lorem ipsum dolor sit amet. 
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet.Impedit, pariatur?Lorem ipsum dolor sit amet. Lorem ipsum dolor.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. consectetur adipisicing elit.
+					</p>
+				</div>
+				<div class="about-images">
+					<img src="img/preview1.png" alt="">
+					<img src="img/preview2.png" alt="">
+					<img src="img/preview3.png" alt="">	
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="green-bg">
+				<div class="features-header">
+					<h3>features</h3>
+				</div>
+				<div id="features">
+					<div class="features-descr">
+						<p>
+							Cool marketing slogan  Great call to action with nice and clean button
+						</p>
+						<p>
+							A slogan is a memorable motto or phrase used in a political, commercial, religious, and other context
+							as a repetitive expression of an idea of purpose.
+						</p>
+						<div class="button">
+							<a href="#">get it</a>
+						</div>
+					</div>
+					<div class="features-img">
+						<img src="img/hand.png" alt="">
+					</div>
+				</div>
+			</div><!-- green-bg -->
+		</section>
+		<section>
+			<div id="reviews">
+				<div class="reviews-header">
+					<h3>reviews</h3>
+				</div>
+				<div class="reviews-descr">
+					<div class="someuser-photo">
+						<img src="img/user1.png" alt="">
+					</div>
+					<div class="someuser-comment">
+						<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu nisi ut ligula ornare dignissim. Donec congue dui porttitor leo consequat accumsan”.</p>
+						<span>user name</span>
+					</div>
+				</div>
+				<div class="reviews-descr">
+					<div class="someuser-photo">
+						<img src="img/user2.png" alt="">
+					</div>
+					<div class="someuser-comment">
+						<p>“Nunc ullamcorper consequat blandit. Ut nibh neque, varius vitae mollis vel, consectetur et eros”.</p>
+						<span>user name</span>
+					</div>
+				</div>	
+				<div class="reviews-descr">
+					<div class="someuser-photo">
+						<img src="img/user3.png" alt="">
+					</div>
+					<div class="someuser-comment">
+						<p>“Nam cursus sit amet nulla ac eleifend. Fusce consequat et ipsum non semper. In dui justo, tincidunt eget imperdiet sed, lacinia nec dolor.”</p>
+						<span>user name</span>
+					</div>
+				</div>	
+				<div class="button">
+					<a href="#">read more</a>
+				</div>	
+			</div><!-- reviews -->
+		</section>
+		<section>
+			<div class="green-bg">
+				<div id="screenshot">
+					<div class="screenshot-header">
+						<h3>screenshot</h3>
+					</div>
+					<div class="screenshot-slider">
+						<img src="img/screenshot1.png" alt="">
+					</div>
+				</div><!-- screenshot -->
+			</div><!-- green-bg -->
+		</section>
+		<section>
+			<div id="demo">
+				<div class="demo-header">
+					<h3>demo</h3>
+				</div>
+				<div class="demo-container">
+					<div class="demo-preview">
+						<img src="img/preview1.png" alt="">
+						<img src="img/preview2.png" alt="">
+						<img src="img/preview3.png" alt="">	
+					</div>
+					<div class="demo-descr">
+						<div class="demo-char">
+							<p>
+								Just some information about your demo app or something like that. Maybe some info about components which includes in trial (demo) application. I hope you will like my landing page template. I made it for you. Enjoy!
+							</p>
+							<div class="button">
+								<a href="#">View Demo</a>
+							</div>
+						</div>
+						<div class="demo-question">
+							<div class="demo-question-left">
+								<p>What`s in the Demo?</p>
+								<p>5 Useful components</p>
+								<p>2 Samples</p>
+								<p>2 Pictures</p>
+							</div>
+							<div class="demo-question-right">
+								<p>What’s in the Full Version?</p>
+								<p>10 All needed components</p>
+								<p>7 Samples</p>
+								<p>25 Pictures</p>
+							</div>
+						</div><!-- demo-question -->
+					</div><!-- demo-descr -->
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="green-bg">
+				<div id="contact">
+					<div class="contact-header">
+						<h3>contact</h3>
+					</div>
+					<div class="email-form">
+						<div class="input-form">
+							<p>Name</p>
+							<input type="text">
+							<p>Email</p>
+							<input type="text">
+							<p>Message</p>
+							<textarea name="" id=""></textarea>
+						</div>
+					</div>
+					<div class="button">
+						<a href="#">submit</a>
+					</div>	
+				</div>
+			</div><!-- green-bg -->
+		</footer>
+	<script src="js/easing.js" type="text/javascript"></script>
+	<!-- UItoTop plugin -->
+	<script src="js/jquery.ui.totop.js" type="text/javascript"></script>
+	<!-- Starting the plugin -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var defaults = {
+	  			containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+	 		};
+			$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<script src="js/scrollreveal_custom.js"></script> 
+	<script src="js/menu.js"></script> 
+</body>
+</html>

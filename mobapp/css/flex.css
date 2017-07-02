@@ -1,0 +1,145 @@
+/*header and slider*/
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+nav {
+	margin: 0 0 0 90px;
+}
+
+nav a {
+	justify-content: space-around;
+	margin: 0 20px;
+}
+
+.slider {
+	display: flex;
+}
+
+.slides img{
+	display: flex; 
+	height: auto;
+	max-width: 100%;
+}
+
+/*content*/
+/*about this template*/
+
+#about {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+/*features*/
+
+#features {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.features-header {
+	display: flex;
+	justify-content: center;
+}
+
+.features-descr {
+	display: inline-flex;
+	flex-direction: column;
+	align-self: center;
+	justify-content: center;
+}
+
+.features-img {
+	display: inline-flex;
+	justify-content: center;
+	align-self: flex-end;
+}
+
+/*reviews*/
+
+#reviews {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: column;
+} 
+
+.reviews-header {
+	display: flex;
+	justify-content: center;
+}
+
+.reviews .button,
+.reviews-descr {
+	display: flex;
+	align-self: center; 
+}
+
+	.someuser-comment {
+		align-self: center;
+	}
+
+/*screenshot*/
+
+.screenshot-header {
+	display: flex;
+	justify-content: center;
+}
+
+.screenshot-slider {
+	display: flex;
+	justify-content: center;
+}
+
+/*demo*/
+
+.demo-header {
+	display: flex;
+	justify-content: center;
+}
+
+.demo-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.demo-preview {
+
+}
+	.demo-preview img {
+		display: flex;
+		flex-direction: column;
+	}
+
+.demo-descr {
+	
+}
+
+.demo-question {
+	display: flex;
+	flex-direction: row;
+}
+
+/*contact*/
+
+.contact-header,
+.email-form,
+.button {
+	display: flex;
+	justify-content: center;
+}
+

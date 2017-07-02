@@ -1,0 +1,66 @@
+@media all and (max-width: 750px) {
+		header .content-width {
+			padding: 0 15px;
+		}
+
+			.site-title a {
+				text-align: center;
+			}
+
+			.main-menu-lnk {
+				padding: 0;
+			}
+
+				.main-menu-lnk a {
+					display: block;
+					text-align: center;
+					padding: 15px 0;
+				}
+
+				.main-menu-lnk a:hover {
+					color: #ffffff;
+					background: #23a0bf;
+					text-decoration: none;
+					border-bottom: none;
+				}
+
+				.post {
+					padding: 20px 20%;
+				}
+
+				.post-header,
+				.post-descr {
+					text-align: center;
+				}
+
+				.post-img, 
+				.post-info {
+      				text-align: center;
+      				width: 100%; 
+      				padding: 10px 0;
+				}
+				
+				.gallery img {
+					max-width: 250px;
+					height: auto;
+				}
+		}	
+
+@media all and (max-width: 1000px) {
+				.post-img img {
+					padding: 0 0 0 30px;
+				}
+}
+
+@media all and (max-width: 1200px) {
+				.header-lnk-l a,
+				.post .post-content,
+				.post-header {
+					padding: 0 0 0 30px;
+				}
+
+				.header-links .header-lnk-r {
+					padding: 0 30px 0 0;
+				}
+
+}	

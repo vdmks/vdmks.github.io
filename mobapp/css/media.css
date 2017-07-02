@@ -1,0 +1,31 @@
+
+@media screen and (max-width: 1020px) {
+	.button {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	header  {
+		justify-content: space-around;
+	}
+	header .menu-icon {
+		visibility: visible;
+	}
+	nav {
+		display: none;
+	}
+	/*section .slides {
+		height: height(899px/2.4);
+	}*/
+	section #about h3 {
+		text-align: center;
+	}
+	.about-images img {
+		display: flex;
+		flex-direction: column;
+	}
+
+}
+

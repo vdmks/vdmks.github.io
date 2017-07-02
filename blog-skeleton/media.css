@@ -1,0 +1,36 @@
+@media all and (max-width: 550px) {
+	.header-links-item,
+	.header-links-search {
+		text-align: center;
+	}
+	.slider {
+		display: none;
+	}
+	.article-img img {
+		width: 150px;
+		height: auto;
+	}
+}
+
+@media all and (max-width: 750px) {
+	.header-links-item a {
+		display: inline-block;
+	}
+	#slider {
+		max-height: 150px;
+	}
+	.article-header {
+		text-align: center;
+	}
+}
+
+@media all and (max-width: 960px) {
+	#slider {
+		max-height: 250px;
+	}
+	.article-img img {
+		max-width: 300px;
+		height: auto;
+	}
+}
+
